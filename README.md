@@ -11,7 +11,7 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## Setup
 
-1. Run `bundle install` to install dependencies
+1. Run `bundle install` to install dependencies.
 2. Create `config/database.yml` by copying `config/database.example.yml`
 3. Create `config/secrets.yml` by copying `config/secrets.example.yml`
 4. Run `bin/rake db:reset` to create, load and seed db
