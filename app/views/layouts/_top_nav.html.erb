@@ -8,7 +8,6 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="/">Jungle</a>
-
       <a class="navbar-brand" href="/about">About</a>
        
     </div>
@@ -17,7 +16,13 @@
         <li>
           <%= link_to 'Home', :root %>
         </li>
-      
+       
+        <% if current_user %>
+        <li> <%= current_user.name %></li>  <li><%= link_to "Logout", '/logout' %></li>
+      <% else %>
+      <li><%= link_to 'Login', '/login' %></li>  
+      <li><%= link_to 'Signup', '/signup' %></li>
+      <% end %>
       
      
         <li class="dropdown">
