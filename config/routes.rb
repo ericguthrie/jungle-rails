@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get "/about", to: "about#index"
+  get "/about" => "about#index"
 
   root to: 'products#index'
 
