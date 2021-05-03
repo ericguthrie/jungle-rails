@@ -9,6 +9,10 @@ RSpec.describe ProductSpec, type: :model do
       expect(product).to be_present
     end
 
-    it "doesn't save if name is missing"
+    it "doesn't save if name is missing" do
+      category = Category.create(name: "Urukhai")
+      product = Product.create(name: nil, price: 12345, quantity: 1, category: category)
+      expect(product.errors.full_messages).to include "Name can't be blank"
+    end
   end
 end
