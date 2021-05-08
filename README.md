@@ -3,7 +3,7 @@
 A mini e-commerce application built with Rails 4.2
 
 ![Jungle Home Page](https://github.com/ericguthrie/jungle-rails/blob/master/docs/junge-home-page.png?raw=true)
-![Jungle Cart Checkout Page](https://github.com/ericguthrie/jungle-rails/blob/master/docs/junge-home-page.png?raw=true)
+![Jungle Cart Checkout Page](https://github.com/ericguthrie/jungle-rails/blob/master/docs/jungle-cart-page.png?raw=true)
 
 ## Additional Steps for Apple M1 Machines
 
